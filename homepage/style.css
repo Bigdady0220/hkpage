@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+  }
+
+.wrap{
+	width: 1537px;
+	height: 713px;
+    background-image: url(picture/background01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: cover;
+}
+.header a{
+	background-image: url(picture/弘光科技大學01.png);
+	width: 317px;
+	height: 80px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.write{
+	padding-top: 150px;
+	padding-left: 100px;
+}
+.write h1{
+	font-size: 110px;
+	color: #fff;
+	font-weight: bolder;
+}
+.write p{
+	font-size: 110px;
+	color: #fff;
+	font-weight: bolder;
+}
+.point{
+	padding: 50px 0px 0px 250px;
+}
+.point a{
+	display: inline-block;
+	padding: 40px 50px;
+	text-decoration: none;
+	background: -webkit-linear-gradient(left, #71c0f1, #195cda);
+	font-size: 50px;
+	font-weight: bold;
+	color: #eceaea;
+	box-shadow: 3px 3px 10px gray;
+	border-radius: 40px;
+}
+.point a:hover{
+	color: #000;
+	background: -webkit-linear-gradient(left, #195cda, #71c0f1);
+}
+.point a:active{
+	padding: 30px 40px;
+	background: -webkit-linear-gradient(left, #bebcbc, #bebcbc);
+	color: #6c6b6b;
+}
